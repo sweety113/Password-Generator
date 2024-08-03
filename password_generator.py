@@ -5,9 +5,9 @@ letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r'
 numbers=['0','1','2','3','3','5','6','7','8','9']
 symbols=['!','#','$','%','&','(',')','*','+']
 print("welcome to password generator")
-n_letters=int(input("How many letters Yoyu want in your password?\n"))
-n_numbers=int(input("How many numbers Yoyu want in your password?\n"))
-n_symbols=int(input("How many symbols Yoyu want in your password?\n"))
+n_letters=int(input("How many letters You want in your password?\n"))
+n_numbers=int(input("How many numbers You want in your password?\n"))
+n_symbols=int(input("How many symbols You want in your password?\n"))
 password_list=[]
 for i in range(1,n_letters+1):
     char=random.choice(letters)
